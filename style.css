@@ -8,6 +8,10 @@
     --darkblue: #1A385A;
 }
 
+img {
+    min-width: 100%;
+}
+
 .main-container {
     max-width: 72em;
     margin: 0 auto;
@@ -52,13 +56,13 @@
 .old-card {
     display: flex;
     flex-direction: column;
-    height: 30em;
+    height: 100%;
 }
 
 .oldpara {
     background-color: var(--lightblue);
     font-size: 1em;
-    height: 30em;
+    height: 100%;
 }
 
 #oldpara {
@@ -67,6 +71,15 @@
     align-items: center;
     padding-left: 3em;
     padding-right: 3em;
+}
+
+.past-one-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-one {
+    height: 100%;
 }
 
 .paratwo {
@@ -142,11 +155,6 @@
 .parathree {
     font-size: 1em;
     text-align: center;
-}
-
-img {
-    display: flex;
-    width: 100%;
 }
 
 #banner {
