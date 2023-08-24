@@ -90,6 +90,7 @@
 .VR-card {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .VRcardblurb {
@@ -109,6 +110,7 @@
 .AR-card {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .ARcardblurb {
