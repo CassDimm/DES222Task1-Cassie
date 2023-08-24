@@ -103,13 +103,14 @@ img {
 .VR-card {
     display: flex;
     flex-direction: row;
+    overflow-y: hidden;
 }
 
 .VRcardblurb {
     background-color: var(--peach);
     font-size: 1em;
-    height: 6em;
     padding: 1em;
+    overflow-y: hidden;
 }
 
 #VRcardblurb {
@@ -118,18 +119,21 @@ img {
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
+    overflow-y: hidden;
 }
 
 .AR-card {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .ARcardblurb {
     background-color: var(--peach);
     font-size: 1em;
-    height: 6em;
     padding: 1em;
+    overflow-y: hidden;
 }
 
 #ARcardblurb {
@@ -137,7 +141,8 @@ img {
     justify-content: center;
     align-items: center;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 1em;    
+    overflow-y: hidden;
 }
 
 .futurebanner {
