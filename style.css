@@ -1,0 +1,337 @@
+:root {
+    --white-font: #FFFFFF;
+    --black-font: #000000;
+    --purple: #DCD5DC;
+    --peach: #E8AA9B;
+    --orange: #E46F44;
+    --lightblue: #769ABE;
+    --darkblue: #1A385A;
+}
+
+.main-container {
+    max-width: 72em;
+    margin: 0 auto;
+    font-family: Inter;
+    color: var(--black);
+}
+
+.banner {
+    background-color: var(--darkblue);
+    color: var(--white-font);
+    padding: 1em;
+}
+
+.banner-title {
+    font-size: 2.5em;
+}
+
+.banner-subtitle {
+    font-size: 2em;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.paraone {
+    display: flex;
+    font-size: 1em;
+    text-align: center;
+}
+
+.pastbanner {
+    display: flex;
+    background-color: var(--orange);
+    color: var(--black-font);
+    padding: 1em;
+}
+
+.past-banner-title {
+    font-size: 2em;
+    padding-left: 4px;
+}
+
+.old-card {
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+}
+
+.oldpara {
+    background-color: var(--lightblue);
+    font-size: 1em;
+    height: 30em;
+}
+
+#oldpara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.paratwo {
+    display: flex;
+    font-size: 1em;
+    text-align: center;
+}
+
+.presentbanner {
+    display: flex;
+    background-color: var(--purple);
+    color: var(--black-font);
+    padding: 1em;
+}
+
+.present-banner-title {
+    font-size: 2em;
+    padding-left: 4px;
+}
+
+.VR-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.VRcardblurb {
+    background-color: var(--peach);
+    font-size: 1em;
+    height: 6em;
+    padding: 1em;
+}
+
+#VRcardblurb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.AR-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.ARcardblurb {
+    background-color: var(--peach);
+    font-size: 1em;
+    height: 6em;
+    padding: 1em;
+}
+
+#ARcardblurb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.futurebanner {
+    display: flex;
+    background-color: var(--lightblue);
+    color: var(--black-font);
+    padding: 1em;
+}
+
+.future-banner-title {
+    font-size: 2em;
+    padding-left: 4px;
+}
+
+.parathree {
+    font-size: 1em;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    width: 100%;
+}
+
+#banner {
+    grid-area: ba1;
+}
+
+#paraone {
+    grid-area: pa1;
+}
+
+#pastbanner {
+    grid-area: ba2;
+}
+
+#oldimage {
+    grid-area: im1;
+}
+
+#oldcard {
+    grid-area: ca1;
+}
+
+#paratwo {
+    grid-area: pa2;
+}
+
+#selfieimage {
+    grid-area: im2;
+}
+
+#devicesimage {
+    grid-area: im3;
+}
+
+#buildingimage {
+    grid-area: im4;
+}
+
+#wheelimage {
+    grid-area: im5;
+}
+
+#boatimage {
+    grid-area: im6;
+}
+
+#hugimage {
+    grid-area: im7;
+}
+
+#presentbanner {
+    grid-area: ba3;
+}
+
+#VRimage {
+    grid-area: ca4;
+}
+
+#VRcard {
+    grid-area: ca2;
+}
+
+#ARimage {
+    grid-area: ca5;
+}
+
+#ARcard {
+    grid-area: ca3;
+}
+
+#futurebanner {
+    grid-area: ba4;
+}
+
+#parathree {
+    grid-area: pa3;
+}
+
+#airportimage {
+    grid-area: im8;
+}
+
+#ARworldimage {
+    grid-area: im9;
+}
+
+.main-container {
+    display: grid;
+    column-gap: 1em;
+}
+  
+.main-container {
+    grid-template:
+    "ba1 ba1 ba1 ba1" minmax(6em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "pa1 pa1 pa1 pa1" minmax(4em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "ba2 ba2 ba2 ba2" minmax(4em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im1 im1 im1 im1" minmax(12em, auto)
+    "ca1 ca1 ca1 ca1" minmax(18em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "pa2 pa2 pa2 pa2" minmax(8em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im2 im2 im5 im5" minmax(8em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im4 im4 im3 im3" minmax(8em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im7 im7 im6 im6" minmax(8em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "ba3 ba3 ba3 ba3" minmax(4em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "ca4 ca4 ca4 ca4" minmax(12em, auto)
+    "ca2 ca2 ca2 ca2" minmax(10em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "ca5 ca5 ca5 ca5" minmax(12em, auto)
+    "ca3 ca3 ca3 ca3" minmax(10em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "ba4 ba4 ba4 ba4" minmax(4em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "pa3 pa3 pa3 pa3" minmax(2em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im8 im8 im8 im8" minmax(14em, auto)
+    " .   .   .   . " minmax(2em, auto)
+    "im9 im9 im9 im9" minmax(14em, auto)
+}
+
+@media (min-width: 50em) {
+    .main-container {
+            grid-template:
+            "ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            " .  pa1 pa1 pa1 pa1 pa1 pa1  . " minmax(2em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2" minmax(4em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "im1 im1 im1 im1 ca1 ca1 ca1 ca1" minmax(16em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            " .  pa2 pa2 pa2 pa2 pa2 pa2  . " minmax(4em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "im2 im2 im2 im2 im5 im5 im5 im5" minmax(16em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "im4 im4 im4 im4 im3 im3 im3 im3" minmax(16em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "im7 im7 im7 im7 im6 im6 im6 im6" minmax(16em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3" minmax(4em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "ca4 ca4 ca4 ca4 ca5 ca5 ca5 ca5" minmax(18em, auto)
+            "ca2 ca2 ca2 ca2 ca3 ca3 ca3 ca3" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4" minmax(4em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            " .  pa3 pa3 pa3 pa3 pa3 pa3  . " minmax(2em, auto)
+            " .   .   .   .   .   .   .   . " minmax(2em, auto)
+            "im8 im8 im8 im8 im9 im9 im9 im9" minmax(16em, auto)
+    }
+}
+
+@media (min-width: 75em) {
+    .main-container {
+        grid-template:
+        "ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1 ba1" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        " .   .  pa1 pa1 pa1 pa1 pa1 pa1 pa1 pa1  .   . " minmax(2em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2 ba2" minmax(4em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "im1 im1 im1 im1 im1 im1 im1 ca1 ca1 ca1 ca1 ca1" minmax(30em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        " .   .  pa2 pa2 pa2 pa2 pa2 pa2 pa2 pa2  .   . " minmax(4em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "im2 im2 im2 im2 im3 im3 im3 im3 im4 im4 im4 im4" minmax(16em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "im5 im5 im5 im5 im6 im6 im6 im6 im7 im7 im7 im7" minmax(16em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3 ba3" minmax(4em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ca4 ca4 ca4 ca4 ca4 ca4 ca5 ca5 ca5 ca5 ca5 ca5" minmax(24em, auto)
+        "ca2 ca2 ca2 ca2 ca2 ca2 ca3 ca3 ca3 ca3 ca3 ca3" minmax(6em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4 ba4" minmax(4em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        " .   .   .  pa3 pa3 pa3 pa3 pa3 pa3  .   .   . " minmax(2em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "im8 im8 im8 im8 im8 im8 im9 im9 im9 im9 im9 im9" minmax(24em, auto)
+    }
+}
