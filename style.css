@@ -8,16 +8,18 @@
     --darkblue: #1A385A;
 }
 
-img {
-    min-width: 100%;
-    height: auto;
-}
-
 .main-container {
+    display: flex;
     max-width: 72em;
     margin: 0 auto;
     font-family: Inter;
     color: var(--black);
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
 }
 
 .banner {
@@ -54,33 +56,16 @@ img {
     padding-left: 4px;
 }
 
-.old-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
 .oldpara {
+    display: flex;
     background-color: var(--lightblue);
     font-size: 1em;
     height: 100%;
-}
-
-#oldpara {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 3em;
     padding-right: 3em;
-}
-
-.past-one-image {
-    height: 100%;
-    object-fit: cover;
-}
-
-.image-one {
-    height: 100%;
+    overflow: hidden;
 }
 
 .paratwo {
@@ -104,46 +89,31 @@ img {
 .VR-card {
     display: flex;
     flex-direction: row;
-    overflow-y: hidden;
 }
 
 .VRcardblurb {
     background-color: var(--peach);
     font-size: 1em;
-    padding: 1em;
-    overflow-y: hidden;
-}
-
-#VRcardblurb {
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
     padding-left: 1em;
-    padding-right: 1em;
-    overflow-y: hidden;
+    padding-right: 1em;  
 }
 
 .AR-card {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-    overflow-y: hidden;
 }
 
 .ARcardblurb {
     background-color: var(--peach);
     font-size: 1em;
-    padding: 1em;
-    overflow-y: hidden;
-}
-
-#ARcardblurb {
-    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
     padding-left: 1em;
-    padding-right: 1em;    
-    overflow-y: hidden;
+    padding-right: 1em;  
 }
 
 .futurebanner {
@@ -162,6 +132,7 @@ img {
     display: flex;
     font-size: 1em;
     text-align: center;
+    padding: 0.5em;
 }
 
 #banner {
@@ -180,7 +151,7 @@ img {
     grid-area: im1;
 }
 
-#oldcard {
+#oldpara {
     grid-area: ca1;
 }
 
@@ -262,7 +233,7 @@ img {
     "ba2 ba2 ba2 ba2" minmax(4em, auto)
     " .   .   .   . " minmax(2em, auto)
     "im1 im1 im1 im1" minmax(12em, auto)
-    "ca1 ca1 ca1 ca1" minmax(18em, auto)
+    "ca1 ca1 ca1 ca1" minmax(24em, auto)
     " .   .   .   . " minmax(2em, auto)
     "pa2 pa2 pa2 pa2" minmax(8em, auto)
     " .   .   .   . " minmax(2em, auto)
