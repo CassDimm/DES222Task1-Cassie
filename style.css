@@ -10,6 +10,7 @@
 
 img {
     min-width: 100%;
+    display: flex;
 }
 
 .main-container {
@@ -24,6 +25,7 @@ img {
     background-color: var(--darkblue);
     color: var(--white-font);
     padding: 1em;
+    display: flex;
 }
 
 .banner-title {
@@ -40,6 +42,7 @@ img {
     display: flex;
     font-size: 1em;
     text-align: center;
+    display: flex;
 }
 
 .pastbanner {
@@ -47,6 +50,7 @@ img {
     background-color: var(--orange);
     color: var(--black-font);
     padding: 1em;
+    display: flex;
 }
 
 .past-banner-title {
@@ -72,21 +76,25 @@ img {
     align-items: center;
     padding-left: 3em;
     padding-right: 3em;
+    display: flex;
 }
 
 .past-one-image {
     height: 100%;
     object-fit: cover;
+    display: flex;
 }
 
 .image-one {
     height: 100%;
+    display: flex;
 }
 
 .paratwo {
     display: flex;
     font-size: 1em;
     text-align: center;
+    display: flex;
 }
 
 .presentbanner {
@@ -94,6 +102,7 @@ img {
     background-color: var(--purple);
     color: var(--black-font);
     padding: 1em;
+    display: flex;
 }
 
 .present-banner-title {
@@ -105,6 +114,7 @@ img {
     display: flex;
     flex-direction: row;
     overflow-y: hidden;
+    display: flex;
 }
 
 .VRcardblurb {
@@ -112,6 +122,7 @@ img {
     font-size: 1em;
     padding: 1em;
     overflow-y: hidden;
+    display: flex;
 }
 
 #VRcardblurb {
@@ -121,6 +132,7 @@ img {
     padding-left: 1em;
     padding-right: 1em;
     overflow-y: hidden;
+    display: flex;
 }
 
 .AR-card {
@@ -128,6 +140,7 @@ img {
     flex-direction: row;
     overflow: hidden;
     overflow-y: hidden;
+    display: flex;
 }
 
 .ARcardblurb {
@@ -135,6 +148,7 @@ img {
     font-size: 1em;
     padding: 1em;
     overflow-y: hidden;
+    display: flex;
 }
 
 #ARcardblurb {
@@ -144,6 +158,7 @@ img {
     padding-left: 1em;
     padding-right: 1em;    
     overflow-y: hidden;
+    display: flex;
 }
 
 .futurebanner {
@@ -151,16 +166,19 @@ img {
     background-color: var(--lightblue);
     color: var(--black-font);
     padding: 1em;
+    display: flex;
 }
 
 .future-banner-title {
     font-size: 2em;
     padding-left: 4px;
+    display: flex;
 }
 
 .parathree {
     font-size: 1em;
     text-align: center;
+    display: flex;
 }
 
 #banner {
