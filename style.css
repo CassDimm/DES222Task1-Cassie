@@ -8,11 +8,6 @@
     --darkblue: #1A385A;
 }
 
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
-
 img {
     min-width: 100%;
 }
@@ -84,6 +79,7 @@ img {
 }
 
 .image-one {
+    display: flex;
     height: 100%;
 }
 
@@ -163,6 +159,7 @@ img {
 }
 
 .parathree {
+    display: flex;
     font-size: 1em;
     text-align: center;
 }
