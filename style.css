@@ -8,6 +8,11 @@
     --darkblue: #1A385A;
 }
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
 img {
     min-width: 100%;
 }
