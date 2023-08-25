@@ -131,6 +131,7 @@ img {
 .parathree {
     display: flex;
     font-size: 1em;
+    font-family: Inter;
     text-align: center;
     padding: 0.5em;
 }
