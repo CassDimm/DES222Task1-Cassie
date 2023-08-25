@@ -10,7 +10,6 @@
 
 img {
     min-width: 100%;
-    display: flex;
 }
 
 .main-container {
@@ -18,6 +17,7 @@ img {
     margin: 0 auto;
     font-family: Inter;
     color: var(--black);
+    display: flex;
 }
 
 .banner {
