@@ -8,6 +8,10 @@
     --darkblue: #1A385A;
 }
 
+img {
+    min-width: 100%;
+}
+
 .main-container {
     max-width: 72em;
     margin: 0 auto;
@@ -156,10 +160,6 @@
 .parathree {
     font-size: 1em;
     text-align: center;
-}
-
-img {
-    min-width: 100%
 }
 
 #banner {
