@@ -60,13 +60,10 @@ img {
 }
 
 .oldpara {
+    display: flex;
     background-color: var(--lightblue);
     font-size: 1em;
     height: 100%;
-}
-
-#oldpara {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 3em;
@@ -79,7 +76,6 @@ img {
 }
 
 .image-one {
-    display: flex;
     height: 100%;
 }
 
